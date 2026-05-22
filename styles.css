@@ -236,10 +236,24 @@ body {
     color: #9f8867;
 }
 
+.lore h3 {
+    margin-top: 2em;
+}
+
 .lore p {
     max-width: 800px;
     margin: 0 auto;
     color: #aaaaaa;
+}
+
+.lore a {
+    color: #ffffff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.lore a:hover {
+    color: #9f8867;
 }
 
 /* Mechanics Section */
