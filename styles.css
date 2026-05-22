@@ -150,7 +150,7 @@ body {
 .about {
     padding: 3rem 2rem;
     text-align: center;
-    background-color: #2e2519;
+    background-color: #332a1f;
 }
 
 .about h2 {
@@ -236,17 +236,31 @@ body {
     color: #9f8867;
 }
 
+.lore h3 {
+    margin-top: 2em;
+}
+
 .lore p {
     max-width: 800px;
     margin: 0 auto;
     color: #aaaaaa;
 }
 
+.lore a {
+    color: #ffffff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.lore a:hover {
+    color: #9f8867;
+}
+
 /* Mechanics Section */
 .mechanics {
     padding: 3rem 2rem;
     text-align: center;
-    background-color: #2e2519;
+    background-color: #332a1f;
 }
 
 .mechanics h2 {
